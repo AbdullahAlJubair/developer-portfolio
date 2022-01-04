@@ -43,7 +43,7 @@ body {
     margin-top: 150px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position:right bottom;
 }
 .box2 .img-box {
     padding: 0 20px 0 90px;
@@ -51,6 +51,47 @@ body {
 .box2 .text-box {
     padding: 0 90px 0 60px;
 }
-.box2 .text-box h2{
+.box2 .text-box h2, .box3 h2{
     font-size: 40px;
+}
+.box3 {
+    margin-top: 150px;
+    margin-bottom: 200px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left bottom;
+}
+.info-box {
+    display: flex;
+    padding: 10px 70px;
+}
+.ib-1 {
+    width: 50%;
+    margin-right: 30px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    box-shadow: 12px 0px 20px 0px lightgrey;
+    border-image: linear-gradient(orange, tomato);
+    border-left: 5px solid;
+    border-image-slice: 1;
+}
+.ib-2 {
+    width: 50%;
+    margin-left: 30px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    box-shadow: 12px 0px 20px 0px lightgrey;
+    border-image: linear-gradient(cyan, blue);
+    border-left: 5px solid;
+    border-image-slice: 1;
+}
+.box3 h3 {
+    color: orange;
+}
+.box3 p {
+    color: gray;
+}
+footer p {
+    text-align: center;
+    color: gray;
 }
