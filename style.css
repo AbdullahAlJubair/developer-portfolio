@@ -12,6 +12,9 @@ body {
 .text-box h1 {
     font-size: 50px;
 }
+.text-box h2 {
+    font-size: 43px;
+}
 .text-box p {
     color: gray;
 }
